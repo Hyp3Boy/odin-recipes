@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline solid #4f6d7a;
+  color: #4f6d7a;
+}
+
+.recipes {
+  border-radius: 10%;
+  border: 2px solid #4f6d7a;
+  background-color: #eaeaea;
+  width: 35%;
+  padding: 20px 10px 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  /*separar imagen del div*/
+  position: relative;
+  top: 50px;
+  box-shadow: 0 0 10px #4f6d7a;
+}
+li {
+  padding: 5px;
+  color: #4f6d7a;
+  font-size: 25px;
+}
+a {
+  color: #4f6d7a;
+  text-decoration: underline;
+  /*change the color of the points*/
+}
+img {
+  display: block;
+  margin-left: auto;
+  border-radius: 20%;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 50px #4f6d7a;
+}
+p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  height: 97vh;
+  background-image: linear-gradient(180deg, #fff, #c0d6df);
+}
